@@ -29,7 +29,8 @@
   "sameAs": [
     "https://www.linkedin.com/in/rushank-lashkari/",
     "https://github.com/rushanklashkari",
-    "https://medium.com/@rushanklashkari"
+    "https://medium.com/@rushanklashkari",
+    "https://au.pinterest.com/lashkarirushank/"
   ],
   "knowsAbout": ["IT Sales","Enterprise B2B Sales","SaaS Sales","Channel Sales","Technology Sales","Consultative Selling","CRM Management"]
 }
@@ -470,13 +471,23 @@ footer {
   background: var(--charcoal);
   padding: 1.75rem 8vw;
   display: flex; align-items: center; justify-content: space-between;
-  flex-wrap: wrap; gap: 0.75rem;
+  flex-wrap: wrap; gap: 1rem;
 }
 .footer-name {
   font-family: 'Playfair Display', serif;
   font-size: 0.9rem; font-weight: 600; color: var(--white);
 }
-.footer-right { font-size: 0.72rem; color: rgba(255,255,255,0.38); }
+.footer-links {
+  display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center;
+}
+.footer-links a {
+  font-size: 0.72rem; font-weight: 500;
+  letter-spacing: 0.07em; text-transform: uppercase;
+  color: rgba(255,255,255,0.45); text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--gold); }
+.footer-right { font-size: 0.72rem; color: rgba(255,255,255,0.28); }
 
 /* ── FADE UP ── */
 .fade-up {
@@ -863,6 +874,9 @@ footer {
       <a href="mailto:lashkari.rushank@gmail.com" class="contact-link">&#9670;&nbsp; Email me</a>
       <a href="https://www.linkedin.com/in/rushank-lashkari/" target="_blank" rel="noopener" class="contact-link">&#9670;&nbsp; LinkedIn</a>
       <a href="https://github.com/rushanklashkari" target="_blank" rel="noopener" class="contact-link">&#9670;&nbsp; GitHub</a>
+      <a href="https://medium.com/@rushanklashkari" target="_blank" rel="noopener" class="contact-link">&#9670;&nbsp; Medium</a>
+      <a href="https://about.me/rushanklashkari" target="_blank" rel="noopener" class="contact-link">&#9670;&nbsp; About.me</a>
+      <a href="https://au.pinterest.com/lashkarirushank/" target="_blank" rel="noopener" class="contact-link">&#9670;&nbsp; Pinterest</a>
     </div>
   </div>
 </section>
@@ -870,7 +884,14 @@ footer {
 <!-- FOOTER -->
 <footer>
   <span class="footer-name">Rushank Lashkari</span>
-  <span class="footer-right">IT Sales Strategist &middot; Canberra, ACT &middot; rushanklashkari.com</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/rushank-lashkari/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/rushanklashkari" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://medium.com/@rushanklashkari" target="_blank" rel="noopener">Medium</a>
+    <a href="https://about.me/rushanklashkari" target="_blank" rel="noopener">About.me</a>
+    <a href="https://au.pinterest.com/lashkarirushank/" target="_blank" rel="noopener">Pinterest</a>
+  </div>
+  <span class="footer-right">IT Sales Strategist &middot; Canberra, ACT</span>
 </footer>
 
 <script>
